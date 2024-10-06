@@ -1,0 +1,24 @@
+Paso 1: Descargar o clonar el código del juego.
+
+Paso 2: Usa un IDE, preferiblemente Spyder
+Si no tienes un IDE, te recomiendo usar Spyder, que es parte de Anaconda. Anaconda incluye todo lo que necesitas para trabajar con Python de manera sencilla.
+
+Paso 3: Instalar las librerías necesarias
+	pygame
+	opencv-python
+	numpy
+
+Paso 4: Ejecutar el juego
+Abre el archivo principal del juego snake.py en Spyder.
+Simplemente haz clic en el botón "play" o "run" de Spyder para iniciar el juego.
+
+Paso 5: Cómo jugar
+Cuando inicies el juego, se mostrará una pantalla de inicio. Selecciona "Play" para comenzar.
+Usa un objeto de color amarillo para controlar la serpiente:
+Movimiento: Mueve el objeto amarillo frente a la cámara para controlar la dirección de la serpiente.
+La serpiente se moverá hacia la izquierda, derecha, arriba o abajo dependiendo de la posición del objeto amarillo.
+La comida aparecerá aleatoriamente en la pantalla y tu objetivo es comerla para ganar puntos.
+La velocidad de la serpiente aumentará a medida que obtengas más puntos.
+
+Paso 6: Final del juego
+El juego terminará si la serpiente choca con los bordes de la pantalla o si se muerde a sí misma. Cuando esto ocurra, aparecerá una pantalla de "Game Over" con opciones para "Retry" (reintentar) o "Quit" (salir).
